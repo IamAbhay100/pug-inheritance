@@ -1,0 +1,16 @@
+{
+  "name": "dance-web",
+  "version": "1.0.0",
+  "description": "this is dance web for academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}

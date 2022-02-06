@@ -1,0 +1,58 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+  style
+      include ../static/style.css  
+
+block content
+
+    section#introSection 
+      div#quote Dance is The Hidden Language of the Soul ...
+      div Welcome to Abhay's Dance Academy.
+
+    section#ourmission  
+      h2 Our Mission
+      div.row 
+        div.card 
+          h1 Dance Perfection
+          div.card-box 
+            div.card-img
+              img(src="../static/img/1.png") 
+
+            div.card-content 
+              p This is the best dance academy of the Universe   
+        div.card 
+          h1 Dance The Way You Like
+          div.card-box 
+            div.card-img
+              img(src="../static/img/2.png") 
+
+            div.card-content 
+              p This is the best dance academy of the Universe
+
+        div.card 
+          h1 Expert Teaching
+          div.card-box 
+            div.card-img
+              img(src="../static/img/3.png") 
+
+            div.card-content 
+              p This is the best dance academy of the Universe
+
+    section#sponsersSection
+      h2 Our Sponsers
+      div.sponsers 
+        div.logo1 
+          img(src="../static/img/logo1.png")
+
+        div.logo2 
+          img(src="../static/img/logo2.png")
+
+        div.logo3 
+          img(src="../static/img/logo3.png")
+
+        div.logo4 
+          img(src="../static/img/logo4.png")
